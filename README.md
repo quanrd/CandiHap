@@ -5,10 +5,10 @@ Genome-wide association study (GWAS) is widely utilized to identify genes involv
 ## Description
 __`CandiHaplotypes`__ tool is developed to identify candidate causal SNPs and genes from GWAS by integrating linkage disequilibrium (LD) analysis, SNP annotation, haplotype analyses and traits statistics of haplotypes. CandiHaplotypes provides a very fast solution form GWAS result to candidate causal genes, and it will help researchers to derive candidate causal genes for complex traits study.</br>
 
-> CandiHaplotypes: a tool for fast identifying candidate causal genes from genome-wide association study.</br>
+> Xukai Li et al. CandiHaplotypes: a tool for fast identifying candidate causal genes from genome-wide association study. It is going to submit to __`Molecular Breeding`__</br>
 
 ## Dependencies
-__`perl 5`__, __`R ≥ 3.2`__ (with ggplot2), __`Python 2.7__`, and __`electron__`. </br></br>
+__`perl 5`__, __`R ≥ 3.2`__ (with ggplot2), __`Python 2.7`__, and __`electron`__. </br></br>
 
 ## Getting started
 There are mainly three steps included in the CandiHaplotypes analytical through command lines, and the test data files can freely download at test_data.</br>
