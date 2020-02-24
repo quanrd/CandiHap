@@ -8,7 +8,7 @@ __`CandiHaplotypes`__ tool is developed to identify candidate causal SNPs and ge
 > CandiHaplotypes: a tool for fast identifying candidate causal genes from genome-wide association study.</br>
 
 ## Dependencies
-__`perl 5`__ and __`R`__ ≥ 3.2 . </br></br>
+__`perl 5`__, __`R ≥ 3.2`__ (with ggplot2), __`Python 2.7__`, and __`electron__`. </br></br>
 
 ## Getting started
 There are mainly three steps included in the CandiHaplotypes analytical through command lines, and the test data files can freely download at test_data.</br>
@@ -20,6 +20,7 @@ Put __`vcf2hmp.pl`__  test.gff, test.vcf, and genome.fa files in a same dir, the
      
      table_annovar.pl  test.vcf  ./  --vcfinput --outfile  test --buildver  si --protocol refGene --operation g -remove
      
+     # 0.1 means the minor allele frequency (MAF)
      perl  vcf2hmp.pl  test.vcf  test.si_multianno.txt  0.1
 ```
 </br>
