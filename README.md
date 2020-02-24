@@ -1,5 +1,5 @@
 # CandiHaplotypes: a tool for fast identifying candidate causal genes from genome-wide association study
-Genome-wide association study (GWAS) is widely utilized to identify genes involved in plants, animals and human complex traits. The identified SNP is not necessarily the causal variant, but it is rather in linkage disequilibrium (LD). One key challenge for GWAS data interpretation is to fast identify causal genes and provide profound evidence on how they affect the trait. Researches want to identify candidate causal variants from the most significant SNPs of GWAS in any species and on their local computer, while to complete these tasks are to be time-consuming, laborious and prone to errors and omission. To our knowledge, so far there is no tool available to solve the challenge for GWAS data very quickly. CandiHaplotypes is developed to identify candidate causal SNPs and genes from GWAS by integrating LD analysis, functional SNP annotation, haplotype analyses and traits statistics of haplotypes. CandiHaplotypes provides a very fast preselection form GWAS result to candidate causal variants
+Genome-wide association study (GWAS) is widely utilized to identify genes involved in plants, animals and human complex traits. The identified SNP is not necessarily the causal variant, but it is rather in linkage disequilibrium (LD). One key challenge for GWAS data interpretation is to fast identify causal genes and provide profound evidence on how they affect the trait. Researches want to identify candidate causal variants from the most significant SNPs of GWAS in any species and on their local computer, while to complete these tasks are to be time-consuming, laborious and prone to errors and omission. To our knowledge, so far there is no tool available to solve the challenge for GWAS data very quickly. CandiHaplotypes is developed to identify candidate causal SNPs and genes from GWAS by integrating LD analysis, functional SNP annotation, haplotype analyses and traits statistics of haplotypes. CandiHaplotypes provides a very fast preselection form GWAS result to candidate causal variants.</br>
 ![+](CandiHaplotypes.png)
 
 ## Description
@@ -11,7 +11,7 @@ __`CandiHaplotypes`__ tool is developed to identify candidate causal SNPs and ge
 __`perl 5`__ and __`R`__ ≥ 3.2 . </br></br>
 
 ## Getting started
-There are mainly three steps included in the CandiHaplotypes analytical through command lines, and the test data files can freely download at test_data.
+There are mainly three steps included in the CandiHaplotypes analytical through command lines, and the test data files can freely download at test_data.</br>
 Put __`vcf2hmp.pl`__  test.gff, test.vcf, and genome.fa files in a same dir, then run annovar (table_annovar.pl):</br>
 ```
      gffread  test.gff   -T -o test.gtf
