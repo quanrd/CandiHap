@@ -2,10 +2,8 @@
 Genome-wide association study (GWAS) is widely utilized to identify genes involved in plants, animals and human complex traits. The identified SNP is not necessarily the causal variant, but it is rather in linkage disequilibrium (LD). One key challenge for GWAS data interpretation is to fast identify causal genes and provide profound evidence on how they affect the trait. Researches want to identify candidate causal variants from the most significant SNPs of GWAS in any species and on their local computer, while to complete these tasks are to be time-consuming, laborious and prone to errors and omission. To our knowledge, so far there is no tool available to solve the challenge for GWAS data very quickly. CandiHaplotypes is developed to identify candidate causal SNPs and genes from GWAS by integrating LD analysis, functional SNP annotation, haplotype analyses and traits statistics of haplotypes. CandiHaplotypes provides a very fast preselection form GWAS result to candidate causal variants
 
 # CandiHaplotypes: a tool for fast identifying candidate causal genes from genome-wide association study
-![+](Plot_gene-Si9g49990.1-Phenotype.png)
-![+](Plot_hist-Phenotype.jpg)
-![+](Plot_boxplot-Si9g49990-Phenotype.jpg)
-![-](haplotype_table.jpg)
+![+](CandiHaplotypes.png)
+
 ## Description
 __`SNP_Gene_Phenotype2haplotypes.pl`__ can be used to draw the Gene structure and haplotypes quickly in `PDF` format based on the VCF, GFF and gene's ID. It will become a useful tool for `drawing gene structure` with the advantages of a simple input data format, easily modified output and very good portability. __`SNP_Gene_Phenotype2haplotypes.pl`__ is open source, so all we ask is that you cite our most recent paper in any publications that use this script:</br>
 > 基于重测序vcf数据计算群体的单倍型频率及作图.</br>
